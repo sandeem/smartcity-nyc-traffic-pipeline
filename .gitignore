@@ -1,0 +1,21 @@
+# Databricks
+.databricks/
+*.pyc
+__pycache__/
+
+# Spark / Streaming checkpoints
+checkpoints/
+_checkpoints/
+*.crc
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Jupyter
+.ipynb_checkpoints/
