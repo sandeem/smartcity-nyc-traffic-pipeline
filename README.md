@@ -288,15 +288,15 @@ Upload NYC road segments to `bronze_osm_roads` table (1.8M rows with `geometry_w
 ## Project Structure
 
 ```
-capstone_project/
-|-- Bronze_TomTom_STREAM_Part_A_pull_data.ipynb        # API ingestion
-|-- Bronze_TomTom_STREAM_Part_B_stream_to_bronze.ipynb  # Auto Loader -> Bronze
-|-- Silver_Traffic_STREAM_Part_C_enrich_to_silver.ipynb  # Geospatial enrichment -> Silver
-|-- Gold_Traffic_STREAM_Part_D_aggregate_to_gold.ipynb   # Aggregation + alerting -> Gold
-|-- SmartCity Project Reference Guide.ipynb              # Detailed project documentation
-|-- Presentation Speaker Notes.md                        # 10-min presentation script
-|-- smartcity_architecture.png                           # Pipeline architecture diagram
-|-- README.md                                            # This file
+smartcity-nyc-traffic-pipeline/
+|-- Bronze_TomTom_STREAM_Part_A_pull_data.ipynb          # API ingestion
+|-- Bronze_TomTom_STREAM_Part_B_stream_to_bronze.ipynb    # Auto Loader -> Bronze
+|-- Silver_Traffic_STREAM_Part_C_enrich_to_silver.ipynb    # Geospatial enrichment -> Silver
+|-- Gold_Traffic_STREAM_Part_D_aggregate_to_gold.ipynb     # Aggregation + alerting -> Gold
+|-- Pipeline Optimization Benchmarks.ipynb                 # Broadcast Join, AQE, Z-ORDER, OPTIMIZE benchmarks
+|-- Dashboard Photos/                                      # Lakeview dashboard screenshots
+|-- .gitignore                                             # Git ignore rules
+|-- README.md                                              # This file
 ```
 
 ---
