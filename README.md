@@ -14,8 +14,8 @@ TomTom API --> S3 Landing Zone (JSON) --> Auto Loader (cloudFiles) --> Bronze (R
               OSM Roads (1.8M rows) --> H3 Geospatial Indexing            |
                                               |                           |
                                     +---------v---------------------------v--------+
-                                    |              Silver Layer                     |
-                                    |    Broadcast Join + Quarantine Logic          |
+                                    |              Silver Layer                    |
+                                    |    Broadcast Join + Quarantine Logic         |
                                     +---------------------+------------------------+
                                                           |
                                                  +--------v--------+
