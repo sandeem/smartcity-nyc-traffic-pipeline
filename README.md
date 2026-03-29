@@ -141,6 +141,55 @@ All tables live in Unity Catalog: `bootcamp_students.zachy_sandeepmanoharan1.*`
 | **Operations** | Pipeline health - congestion by street (Brooklyn Bridge area), road x hour heatmap, hourly patterns, freshness counter (green/orange/red), GRIDLOCK alert history |
 | **Historical Analysis** | Day-of-week congestion bar chart, road x day heatmap - Saturday worst (0.23 avg CI), Monday best (0.0) |
 | **Global Filters** | Road, Traffic Status, and Date Range filters applied across all pages |
+ 
+<br><p align="center">
+<img src="https://github.com/sandeem/smartcity-nyc-traffic-pipeline/blob/main/Dashboard%20Photos/1-Traffic%20Overview%20(Top%20Half).png" width="900" alt="Traffic Dashboard">
+</p>
+<p align="center">
+<i>Figure 1: Traffic Overview (Top Half)</i>
+</p>
+ 
+<br><p align="center">
+<img src="https://github.com/sandeem/smartcity-nyc-traffic-pipeline/blob/main/Dashboard%20Photos/2-Traffic%20Overview%20(Bottom%20Half).png" width="900" alt="Traffic Dashboard">
+</p>
+<p align="center">
+<i>Figure 2: Traffic Overview (Bottom Half)</i>
+</p>
+ 
+<br><p align="center">
+<img src="https://github.com/sandeem/smartcity-nyc-traffic-pipeline/blob/main/Dashboard%20Photos/3-Operations%20Page%20(Top%20Half).png" width="900" alt="Traffic Dashboard">
+</p>
+<p align="center">
+<i>Figure 3: Operations Page (Top Half)</i>
+</p>
+ 
+<br><p align="center">
+<img src="https://github.com/sandeem/smartcity-nyc-traffic-pipeline/blob/main/Dashboard%20Photos/4-Operations%20Page%20(Bottom%20Half).png" width="900" alt="Traffic Dashboard">
+</p>
+<p align="center">
+<i>Figure 4: Operations Page (Bottom Half)</i>
+</p>
+ 
+<br><p align="center">
+<img src="https://github.com/sandeem/smartcity-nyc-traffic-pipeline/blob/main/Dashboard%20Photos/6-Historical%20Traffic%20Analysis.png" width="900" alt="Traffic Dashboard">
+</p>
+<p align="center">
+<i>Figure 5: Historical Traffic Analysis</i>
+</p>
+ 
+<br><p align="center">
+<img src="https://github.com/sandeem/smartcity-nyc-traffic-pipeline/blob/main/Dashboard%20Photos/7-Live%20Monitoring%20Dashboard.png" width="900" alt="Traffic Dashboard">
+</p>
+<p align="center">
+<i>Figure 6: Live Monitoring Dashboard</i>
+</p>
+ 
+<br><p align="center">
+<img src="https://github.com/sandeem/smartcity-nyc-traffic-pipeline/blob/main/Dashboard%20Photos/9-Slack%20Notification%20Page.png" width="900" alt="Traffic Dashboard">
+</p>
+<p align="center">
+<i>Figure 7: Slack Notifications page</i>
+</p>
 
 ---
 
