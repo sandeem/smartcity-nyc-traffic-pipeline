@@ -38,7 +38,7 @@ TomTom API --> S3 Landing Zone (JSON) --> Auto Loader (cloudFiles) --> Bronze (R
 | Feature | Description |
 |---|---|
 | **Real-Time Ingestion** | TomTom API polled every 10 minutes via scheduled Databricks job |
-| **Geospatial Enrichment** | 1.8M OSM road segments indexed with Uber H3 hexagons (Resolution 10, ~15m precision) |
+| **Geospatial Enrichment** | 1.8M OSM road segments indexed with H3 hexagons (Resolution 10, ~15m precision) |
 | **Data Quality** | Quarantine pipeline routes bad rows to `bronze_errors` with categorized error reasons |
 | **Agentic Alerting** | Autonomous Slack notifications for GRIDLOCK events with recency (30 min) and cooldown (30 min/road) guards |
 | **MERGE Upsert** | Prevents duplicate Gold rows from checkpoint resets via `foreachBatch` + Delta MERGE |
@@ -276,7 +276,7 @@ Upload NYC road segments to `bronze_osm_roads` table (1.8M rows with `geometry_w
 | **Platform** | Databricks on AWS |
 | **Storage** | Delta Lake + Unity Catalog |
 | **Streaming** | Spark Structured Streaming + Auto Loader |
-| **Geospatial** | Uber H3 (Resolution 10) + Sedona spatial SQL |
+| **Geospatial** | H3 Indexing (Resolution 10) + Databricks Built-in Spatial SQL |
 | **API** | TomTom Traffic Flow Segment v4 |
 | **Alerting** | Slack Webhooks (autonomous/agentic) |
 | **Secrets** | Databricks Secrets (3 scopes, 5 keys) |
